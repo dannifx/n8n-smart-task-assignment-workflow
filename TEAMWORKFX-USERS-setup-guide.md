@@ -4,16 +4,50 @@
 
 ---
 
-## You're In Luck! 🎉
+## 🤖 Recommended: Let AI Guide You (Easiest!)
 
-Since you're using TeamworkFX (same as the original implementation), **90% of the work is already done**. You just need to:
+**Instead of doing this manually, let AI walk you through everything:**
 
-1. Get your credentials
+1. **Copy this entire prompt:**
+
+```
+I want to set up the Smart Task Assignment Workflow for my TeamworkFX team.
+
+I have the complete documentation. Please:
+
+1. Read TEAMWORKFX-USERS-setup-guide.md
+2. Ask me the interview questions ONE SECTION AT A TIME
+3. Validate my responses after each section
+4. Once we finish the interview, guide me through building each workflow 
+   NODE BY NODE in n8n
+5. Help me test and troubleshoot as we go
+
+Start by asking me the questions from "Your TeamworkFX Setup" section 
+and wait for my answers.
+```
+
+2. **Paste it into Claude, ChatGPT, or your AI assistant**
+
+3. **Answer the questions as the AI asks them**
+
+4. **Let AI guide you through building node-by-node**
+
+**Time: 2-3 hours total** — AI handles all the complexity!
+
+**See AI-GUIDED-SETUP-prompts.md for the full detailed prompt.**
+
+---
+
+## OR: Do It Manually (More Work)
+
+If you prefer to do this without AI assistance:
+
+1. Fill out the interview questions below
 2. Customize the team member data
 3. Build the workflows (copy/paste the code)
 4. Test and go live
 
-**Estimated time: 2-3 hours total**
+**Estimated time: 3-4 hours total** (more trial and error)
 
 ---
 

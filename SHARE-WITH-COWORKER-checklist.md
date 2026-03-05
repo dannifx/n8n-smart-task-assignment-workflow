@@ -29,16 +29,20 @@ They'll have everything they need:
 
 If they only need the essentials to get started:
 
-**For TeamworkFX users, send these 2 files:**
+**For TeamworkFX users, send these files:**
 
-1. **START-HERE-setup-guide.md**
+1. **AI-GUIDED-SETUP-prompts.md** ⭐ MOST IMPORTANT
+   - Ready-to-use AI prompts that guide them through everything
+   - Just copy/paste into Claude/ChatGPT
+
+2. **START-HERE-setup-guide.md**
    - Overview of what the system does
-   - Quick start instructions pointing to Path 1 (TeamworkFX)
+   - Quick start instructions
 
-2. **TEAMWORKFX-USERS-setup-guide.md**
-   - Interview questions specific to TeamworkFX setup
-   - Setup checklist with exact customization points
-   - No platform adaptation needed!
+3. **TEAMWORKFX-USERS-setup-guide.md**
+   - Interview questions (AI will ask these)
+   - Setup checklist (AI will guide through this)
+   - Reference if they want to see what's involved
 
 **For non-TeamworkFX users, send these 3 files:**
 
@@ -82,19 +86,19 @@ I've been using this AI-powered task assignment system for our team and thought
 it might be useful for you too. It automatically recommends who should be 
 assigned new tasks based on workload and skills — saves a ton of time!
 
-Since you're also using TeamworkFX, setup is super straightforward. The 
-workflows are already built for TeamworkFX — you just need to customize it 
-with your team names and IDs.
+Since you're also using TeamworkFX, setup is super easy — just let AI guide you!
 
 **To get started:**
 
-1. Open TEAMWORKFX-USERS-setup-guide.md
-2. Fill out the interview questions (about 20 minutes)
-3. Follow the setup checklist to build the 4 workflows in n8n
-4. Total time: 2-3 hours
+1. Open AI-GUIDED-SETUP-prompts.md
+2. Copy the "TeamworkFX Users" prompt
+3. Paste it into Claude or ChatGPT
+4. Answer questions as the AI asks them
+5. Let AI guide you through building the workflows node-by-node in n8n
+6. Total time: 2-3 hours
 
-The guide walks you through exactly what to customize and where. Everything 
-else is copy/paste!
+The AI handles all the complexity — it interviews you, validates your answers, 
+and walks you through building everything step-by-step. You won't get stuck!
 
 Let me know if you have questions!
 

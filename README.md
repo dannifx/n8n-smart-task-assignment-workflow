@@ -36,28 +36,38 @@ An automated workflow system that:
 
 ---
 
-## Quick Start
+## Quick Start — AI Will Guide You! 🤖
+
+**Don't build this alone!** Let AI walk you through the entire process step-by-step.
 
 ### For TeamworkFX Users ⭐ FASTEST PATH
 
-**Goal:** Implement this for your TeamworkFX + Slack team
+**Just copy/paste this into Claude or ChatGPT:**
 
-1. Open **TEAMWORKFX-USERS-setup-guide.md**
-2. Fill out the interview questions (your team, IDs, preferences)
-3. Follow the setup checklist to build all 4 workflows
-4. Estimated time: **2-3 hours total**
+See **AI-GUIDED-SETUP-prompts.md** → Copy the "TeamworkFX Users" prompt
 
-**Why this is fastest:** The workflows are already built for TeamworkFX. You just customize team names and IDs!
+**What happens:**
+1. AI interviews you about your team (20 minutes)
+2. AI guides you node-by-node through building in n8n (2 hours)
+3. AI helps you test everything (30 minutes)
+4. Done! Working system in **2-3 hours total**
+
+**Why use AI guidance:** You don't need to figure out what to customize or where. The AI validates your answers, catches mistakes, and troubleshoots with you in real-time.
 
 ### For Other Platforms (Asana, ClickUp, Jira, etc.)
 
-**Goal:** Adapt this to your platform and team
+**Just copy/paste this into Claude or ChatGPT:**
 
-1. Open **START-HERE-setup-guide.md**
-2. Copy the prompt from **AGENT-PROMPT-copy-paste-this.md**
-3. Paste it into a chat with your AI assistant (Claude, ChatGPT, etc.)
-4. Answer questions about your team, tools, and preferences (~30-45 minutes)
-5. The AI will generate customized guides and walk you through building the workflows (~3-5 hours)
+See **AI-GUIDED-SETUP-prompts.md** → Copy the "Other Platforms" prompt
+
+**What happens:**
+1. AI interviews you about your platform and team (30-45 minutes)
+2. AI adapts the workflow to YOUR platform (15-30 minutes)
+3. AI guides you node-by-node through building (2-3 hours)
+4. AI helps you test (30-60 minutes)
+5. Done! Working system in **3-5 hours total**
+
+**Why use AI guidance:** The AI adapts everything to your specific platform, generates customized code, and guides you through building and testing. No guessing required!
 
 ---
 
@@ -65,10 +75,11 @@ An automated workflow system that:
 
 | File/Folder | Purpose |
 |-------------|---------|
-| **START-HERE-setup-guide.md** | Quick start instructions (read this first!) |
-| **TEAMWORKFX-USERS-setup-guide.md** | ⭐ **Fastest path for TeamworkFX users** — Fill-in-the-blanks interview + setup checklist |
-| **AGENT-PROMPT-copy-paste-this.md** | Ready-to-use prompt to start AI-guided setup (for non-TeamworkFX platforms) |
-| **ai-guided-setup-interview.md** | Complete interview guide for AI agents (questions, config structure, platform adaptations) |
+| **AI-GUIDED-SETUP-prompts.md** | 🤖 **START HERE!** Copy/paste prompts for AI to guide you through everything |
+| **START-HERE-setup-guide.md** | Quick start instructions and overview |
+| **TEAMWORKFX-USERS-setup-guide.md** | Interview questions and checklist for TeamworkFX users |
+| **AGENT-PROMPT-copy-paste-this.md** | Alternative AI prompt (same as AI-GUIDED-SETUP-prompts.md) |
+| **ai-guided-setup-interview.md** | Complete interview guide for AI agents adapting to other platforms |
 | **SHARE-WITH-COWORKER-checklist.md** | How to share this with others who want to use it |
 | **SYSTEM-ARCHITECTURE-diagram.md** | Visual guide to how all the components fit together |
 | **interactive-task-assignment-bot-guide.md** | End-user documentation (how team members use the bot) |

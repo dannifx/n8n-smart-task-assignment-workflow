@@ -18,43 +18,63 @@ When a new task arrives in your project management system:
 
 ## Quick Start: Three Paths
 
-### Path 1: TeamworkFX Users (Fastest) ⭐ RECOMMENDED FOR TEAMWORKFX
+### Path 1: TeamworkFX Users with AI Guidance ⭐ RECOMMENDED
 
 If you're using **TeamworkFX** like the original implementation:
 
-**Step 1:** Open `TEAMWORKFX-USERS-setup-guide.md`
+**Step 1:** Copy this prompt and paste it into your AI assistant (Claude, ChatGPT, etc.):
 
-**Step 2:** Fill out the quick interview questions (answers about your team, IDs, preferences)
+```
+I want to set up the Smart Task Assignment Workflow for my TeamworkFX team.
 
-**Step 3:** Follow the setup checklist to build all 4 workflows (2-3 hours)
+I have the complete documentation in this folder. Please:
 
-**Why this is fastest:** The guides are already written for TeamworkFX. You just need to customize team names, IDs, and preferences. No platform adaptation needed!
+1. Read TEAMWORKFX-USERS-setup-guide.md
+2. Guide me through the interview questions ONE SECTION AT A TIME
+3. After I answer each section, validate my responses
+4. Once we complete the interview, guide me through building each workflow 
+   NODE BY NODE in n8n
+5. Help me test and troubleshoot as we go
+
+Start by asking me the questions from "Section 1: Your TeamworkFX Setup" 
+and wait for my answers before moving to the next section.
+```
+
+**Why this works:** The AI will walk you through the entire process, validate your answers, and guide you node-by-node through building the workflows. Much easier than doing it alone!
+
+**Time:** 2-3 hours total with AI assistance
 
 ---
 
-### Path 2: Other Platforms (Guided by AI)
+### Path 2: Other Platforms with AI Guidance
 
 If you're using Asana, ClickUp, Jira, Monday, Trello, or another platform:
 
-**Step 1:** Read the interview guide first to understand what information you'll need:
-- Open `ai-guided-setup-interview.md`
-- Skim sections 1-10 to see what questions will be asked
-- Gather any IDs, credentials, or documentation you might need
-
-**Step 2:** Start a conversation with your AI assistant and provide this prompt:
+**Copy this prompt and paste it into your AI assistant (Claude, ChatGPT, etc.):**
 
 ```
-I want to set up the Smart Task Assignment Workflow for my team. 
+I want to set up the Smart Task Assignment Workflow for my team.
 
-Please read the file "ai-guided-setup-interview.md" and conduct the interview 
-section by section. After collecting all my configuration details, generate 
-customized n8n workflow guides for my specific setup, then guide me through 
-building each workflow step by step.
+I'm using [YOUR PLATFORM NAME] for project management.
 
-Be conversational and validate my answers as we go. Let's start with Section 1.
+Please:
+
+1. Read the file "ai-guided-setup-interview.md" completely
+2. Conduct the interview with me section by section (10 sections total)
+3. Be conversational - don't make it feel like filling out a form
+4. Validate my answers and ask clarifying follow-up questions
+5. After completing all sections, generate a Configuration Summary
+6. Create customized n8n workflow guides adapted to MY specific platform and team
+7. Then guide me step-by-step through building each workflow in n8n, 
+   NODE BY NODE, testing as we go
+
+Start by asking me the questions from Section 1: Project Management System.
+Wait for my answers before moving to the next section.
 ```
 
-The AI will interview you, document your configuration, generate customized guides, and then walk you through building the workflows in n8n.
+**Why this works:** The AI will adapt the entire workflow to your specific platform, team structure, and preferences. Then it guides you through building everything step-by-step.
+
+**Time:** 3-5 hours total (includes platform adaptation + building)
 
 ---
 

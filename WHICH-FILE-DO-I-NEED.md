@@ -6,7 +6,23 @@
 
 ## Start Here: What Do You Want To Do?
 
-### 📖 "I want to understand what this system does"
+### 🤖 "I want to set this up (ANY PLATFORM)" ⭐ EASIEST WAY
+
+→ Open **AI-GUIDED-SETUP-prompts.md**
+
+→ Copy the prompt for your platform (TeamworkFX or Other)
+
+→ Paste into Claude/ChatGPT
+
+→ Let AI guide you through EVERYTHING (interview + building + testing)
+
+**Time needed:** 2-3 hours (TeamworkFX) or 3-5 hours (other platforms)
+
+**Why this is best:** AI walks you through step-by-step, validates answers, troubleshoots with you, and you never get stuck!
+
+---
+
+### 📖 "I want to understand what this system does first"
 
 → Read **README.md** (5 min overview)
 
@@ -14,29 +30,19 @@ Then optionally: **SYSTEM-ARCHITECTURE-diagram.md** (deep dive)
 
 ---
 
-### 🚀 "I want to set this up for my TeamworkFX team"
+### 📋 "I want to do it manually without AI help"
 
-→ Read **START-HERE-setup-guide.md** (points you to Path 1)
+**For TeamworkFX:**
+→ Read **TEAMWORKFX-USERS-setup-guide.md** (manual setup)
 
-→ Then **TEAMWORKFX-USERS-setup-guide.md** (complete setup process)
+→ Keep **QUICK-REFERENCE-card.md** handy
 
-**Keep handy during build:** QUICK-REFERENCE-card.md
+**For other platforms:**
+→ Read **ai-guided-setup-interview.md** to understand what's needed
 
-**Time needed:** 2-3 hours
+→ Read **n8n-task-assignment-guides/** to see how to build
 
----
-
-### 🔧 "I want to set this up for my Asana/ClickUp/Jira team"
-
-→ Read **START-HERE-setup-guide.md** (points you to Path 2)
-
-→ Copy prompt from **AGENT-PROMPT-copy-paste-this.md**
-
-→ Paste into your AI assistant (which will read **ai-guided-setup-interview.md** and guide you)
-
-**Keep handy during build:** QUICK-REFERENCE-card.md
-
-**Time needed:** 3-5 hours
+**Time needed:** 3-6 hours (more trial and error without AI help)
 
 ---
 

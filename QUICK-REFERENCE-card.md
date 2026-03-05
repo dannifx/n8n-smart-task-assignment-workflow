@@ -8,10 +8,10 @@
 
 | Goal | Start Here | Time |
 |------|------------|------|
-| **TeamworkFX user** ⭐ | Open `TEAMWORKFX-USERS-setup-guide.md` | 2-3 hours |
-| **Other platform (Asana, etc.)** | Copy prompt from `AGENT-PROMPT-copy-paste-this.md` | 3-5 hours |
-| **Use original guides as-is** | Open `n8n-task-assignment-guides/00-overview.md` | 3-4 hours |
-| **Share with coworker** | Give them `SHARE-WITH-COWORKER-checklist.md` | n/a |
+| **Get AI to guide me** 🤖 ⭐ EASIEST | Copy prompt from `AI-GUIDED-SETUP-prompts.md` | 2-5 hours |
+| **TeamworkFX (manual)** | Open `TEAMWORKFX-USERS-setup-guide.md` | 3-4 hours |
+| **Other platform (manual)** | Read `ai-guided-setup-interview.md` | 4-6 hours |
+| **Share with coworker** | Give them `AI-GUIDED-SETUP-prompts.md` + folder | n/a |
 | **Understand architecture** | Read `SYSTEM-ARCHITECTURE-diagram.md` | 15 min |
 
 ---
@@ -97,15 +97,17 @@
 ```
 📦 Smart Task Assignment Workflow/
 │
-├── 🎯 START-HERE-setup-guide.md ← READ THIS FIRST
-├── ⭐ TEAMWORKFX-USERS-setup-guide.md ← FASTEST PATH (TeamworkFX users)
-├── 🤖 AGENT-PROMPT-copy-paste-this.md ← For other platforms
-├── 📋 ai-guided-setup-interview.md ← AI interview questions (other platforms)
+├── 🤖 AI-GUIDED-SETUP-prompts.md ← ⭐ START HERE! Copy/paste AI prompts
+├── 🎯 START-HERE-setup-guide.md ← Overview and paths
+├── 📋 TEAMWORKFX-USERS-setup-guide.md ← TeamworkFX interview questions
+├── 📋 ai-guided-setup-interview.md ← Other platforms interview
+├── 📋 AGENT-PROMPT-copy-paste-this.md ← Alternative AI prompt
 ├── 📤 SHARE-WITH-COWORKER-checklist.md ← How to share
 ├── 🏗️ SYSTEM-ARCHITECTURE-diagram.md ← Visual architecture
 ├── 📖 interactive-task-assignment-bot-guide.md ← End-user docs
 ├── 📄 README.md ← Project overview
 ├── 📋 QUICK-REFERENCE-card.md ← THIS FILE
+├── 🗂️ WHICH-FILE-DO-I-NEED.md ← Navigation help
 │
 └── 📂 n8n-task-assignment-guides/
     ├── 00-overview.md ← System overview
