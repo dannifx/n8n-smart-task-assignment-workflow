@@ -1,0 +1,29 @@
+# Credentials and sensitive data
+*.env
+.env.*
+credentials.json
+config.local.json
+
+# Personal notes
+PERSONAL-*.md
+*-PRIVATE.md
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+.temp/
